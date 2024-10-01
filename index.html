@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Document</title>
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+    <body>
+    </form>
+
+    <h1>inicio de sesion</h1>
+    <form action="">
+        nombre <br/>
+        <input type="text" name="nombre" placeholder="ingrese su nombre de usuario">
+        <br/>
+        E-mail:<br/>
+        <input type="email" name="mail" placeholder="ingrese una direción de correo electronico"><br/>
+        contraseña <br/>
+        <input type="password" name="password" placeholder="ingrese una contraseña">
+        <div >
+            <div class="g-recaptcha" data-sitekey="6LesaE0qAAAAACF_QEW4hVWaHlnNIfvvQSUHu6Id"></div>
+        </div>
+        <br/><button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+    <h3>Comentarios</h3>
+    <form action="">
+
+    <section>
+        <form name="fichero" enctype="multipart/form-data">
+        Archivo: <input type="file" name="archivo" accept=".pdf" /> 
+        <input type="submit" value="Enviar">
+        </form>
+       
+    </section>
+    </body>
+</html>
